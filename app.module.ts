@@ -3,8 +3,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { BookModule } from './book/book.module';
 import { UserModule } from './user/user.module';
 import { BorrowModule } from './borrow/borrow.module';
-import { UserModule } from './user/user.module';
-import { BorrowModule } from './borrow/borrow.module';
 
 @Module({
   imports: [
